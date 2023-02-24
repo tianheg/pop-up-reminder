@@ -13,9 +13,7 @@
     "48": "logo.png"
   },
   "action": {
-    "default_icon": {
-      "48": "logo.png"
-    },
+    "default_icon": "logo.png",
     "default_title": "Pop-up Reminder",
     "default_popup": "popup.html"
   }

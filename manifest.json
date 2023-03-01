@@ -1,8 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Pop-up Reminder",
-  "version": "0.0.1",
-
+  "version": "0.0.2",
   "description": "Adds a pop-up reminder to remind me something.",
   "browser_specific_settings": {
     "gecko": {
@@ -12,9 +11,17 @@
   "icons": {
     "48": "logo.png"
   },
+  "permissions": [
+    "alarms",
+    "notifications"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
   "action": {
-    "default_icon": "logo.png",
-    "default_title": "Pop-up Reminder",
-    "default_popup": "popup.html"
+    "browser_style": true,
+    "default_icon": "logo.png"
   }
 }

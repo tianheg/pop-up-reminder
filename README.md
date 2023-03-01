@@ -2,6 +2,7 @@
 
 # Pop-up Reminder
 
-## TODO
+## TODOs
 
 - [ ] Custom words, save to localStorage
+- [x] Regular notice

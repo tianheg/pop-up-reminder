@@ -6,3 +6,4 @@
 
 - [ ] Custom words, save to localStorage
 - [x] Regular notice
+- [ ] Auto publish ([ref](https://github.com/Cookie-AutoDelete/Cookie-AutoDelete/blob/3.X.X-Branch/.github/workflows/ci_tag_release.yml))

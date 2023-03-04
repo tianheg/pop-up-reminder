@@ -3,6 +3,7 @@
   "name": "Pop-up Reminder",
   "version": "0.0.3",
   "description": "Adds a pop-up reminder to remind me something.",
+  "homepage_url": "https://github.com/tianheg/pop-up-reminder",
   "browser_specific_settings": {
     "gecko": {
       "id": "pop-up-reminder@tianhegao.com"

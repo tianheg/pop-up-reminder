@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Pop-up Reminder",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds a pop-up reminder to remind me something.",
   "homepage_url": "https://github.com/tianheg/pop-up-reminder",
   "browser_specific_settings": {
@@ -13,7 +13,6 @@
     "48": "logo.svg"
   },
   "permissions": [
-    "alarms",
     "notifications"
   ],
   "background": {
@@ -21,6 +20,16 @@
       "background.js"
     ]
   },
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": [
+        "content.js"
+      ]
+    }
+  ],
   "action": {
     "browser_style": true,
     "default_icon": {

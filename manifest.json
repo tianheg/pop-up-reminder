@@ -9,7 +9,7 @@
     }
   },
   "icons": {
-    "48": "logo.png"
+    "48": "logo.svg"
   },
   "permissions": [
     "alarms",
@@ -22,6 +22,15 @@
   },
   "action": {
     "browser_style": true,
-    "default_icon": "logo.png"
+    "default_icon": {
+      "48": "logo.svg"
+    },
+    "theme_icons": [
+      {
+        "light": "logo.svg",
+        "dark": "logo.svg",
+        "size": 48
+      }
+    ]
   }
 }
